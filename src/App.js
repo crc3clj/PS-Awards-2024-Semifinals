@@ -13,6 +13,7 @@ const departments = [
   { id: 'hrl', name: 'HRL - Motoc Simina' },
   { id: 'log', name: 'LOG - Hastemir Bekir' },
   { id: 'fcm', name: 'FCM - Gyori Botond' },
+  { id: 'qmmc', name: 'QMM-C - Marius Rusu' },
 ];
 
 const projects = {
@@ -25,7 +26,9 @@ const projects = {
   ctg: ['1. FC 100x higher on QFN 48 pin', '2. FABS2 EOL Tester', '3. MOE3 Milling Pool - PCB edge delamination', '4. IvecoMux safety incident with shelfcarriers 1', '5. D716 Damaged component', '6. JLR Ford parts mix', '7. PSS - Laser Marking Machine safety errors', '8. Deviatie de contur Milling 225', '9. ECA_M2_Scontrol_Pseudo Failures', '10. DASy Enhanced MARVEL eFUse_8D_report', '11. SKD16 VC1CP019 pushed-out bushings', '12. Reduction of insufficient printing for bus bar components - DCDC Gen3 EVO', '13. Internal transport damage', '14. Damage component –coil L414_1', '15 Prevention of Retractable Clamp Detachment', '16. Person injured by falling down'],
   hrl: ['1. FC 100x higher on QFN 48 pin', '2. FABS2 EOL Tester', '3. MOE3 Milling Pool - PCB edge delamination', '4. IvecoMux safety incident with shelfcarriers 1', '5. D716 Damaged component', '6. JLR Ford parts mix', '7. PSS - Laser Marking Machine safety errors', '8. Deviatie de contur Milling 225', '9. ECA_M2_Scontrol_Pseudo Failures', '10. DASy Enhanced MARVEL eFUse_8D_report', '11. SKD16 VC1CP019 pushed-out bushings', '12. Reduction of insufficient printing for bus bar components - DCDC Gen3 EVO', '13. Internal transport damage', '14. Damage component –coil L414_1', '15 Prevention of Retractable Clamp Detachment', '16. Person injured by falling down'],
   log: ['1. FC 100x higher on QFN 48 pin', '2. FABS2 EOL Tester', '3. MOE3 Milling Pool - PCB edge delamination', '4. IvecoMux safety incident with shelfcarriers 1', '5. D716 Damaged component', '6. JLR Ford parts mix', '7. PSS - Laser Marking Machine safety errors', '8. Deviatie de contur Milling 225', '9. ECA_M2_Scontrol_Pseudo Failures', '10. DASy Enhanced MARVEL eFUse_8D_report', '11. SKD16 VC1CP019 pushed-out bushings', '12. Reduction of insufficient printing for bus bar components - DCDC Gen3 EVO', '13. Internal transport damage', '14. Damage component –coil L414_1', '15 Prevention of Retractable Clamp Detachment', '16. Person injured by falling down'],
-  fcm: ['1. FC 100x higher on QFN 48 pin', '2. FABS2 EOL Tester', '3. MOE3 Milling Pool - PCB edge delamination', '4. IvecoMux safety incident with shelfcarriers 1', '5. D716 Damaged component', '6. JLR Ford parts mix', '7. PSS - Laser Marking Machine safety errors', '8. Deviatie de contur Milling 225', '9. ECA_M2_Scontrol_Pseudo Failures', '10. DASy Enhanced MARVEL eFUse_8D_report', '11. SKD16 VC1CP019 pushed-out bushings', '12. Reduction of insufficient printing for bus bar components - DCDC Gen3 EVO', '13. Internal transport damage', '14. Damage component –coil L414_1', '15 Prevention of Retractable Clamp Detachment', '16. Person injured by falling down']
+  fcm: ['1. FC 100x higher on QFN 48 pin', '2. FABS2 EOL Tester', '3. MOE3 Milling Pool - PCB edge delamination', '4. IvecoMux safety incident with shelfcarriers 1', '5. D716 Damaged component', '6. JLR Ford parts mix', '7. PSS - Laser Marking Machine safety errors', '8. Deviatie de contur Milling 225', '9. ECA_M2_Scontrol_Pseudo Failures', '10. DASy Enhanced MARVEL eFUse_8D_report', '11. SKD16 VC1CP019 pushed-out bushings', '12. Reduction of insufficient printing for bus bar components - DCDC Gen3 EVO', '13. Internal transport damage', '14. Damage component –coil L414_1', '15 Prevention of Retractable Clamp Detachment', '16. Person injured by falling down'],
+  qmmc: ['1. FC 100x higher on QFN 48 pin', '2. FABS2 EOL Tester', '3. MOE3 Milling Pool - PCB edge delamination', '4. IvecoMux safety incident with shelfcarriers 1', '5. D716 Damaged component', '6. JLR Ford parts mix', '7. PSS - Laser Marking Machine safety errors', '8. Deviatie de contur Milling 225', '9. ECA_M2_Scontrol_Pseudo Failures', '10. DASy Enhanced MARVEL eFUse_8D_report', '11. SKD16 VC1CP019 pushed-out bushings', '12. Reduction of insufficient printing for bus bar components - DCDC Gen3 EVO', '13. Internal transport damage', '14. Damage component –coil L414_1', '15 Prevention of Retractable Clamp Detachment', '16. Person injured by falling down']
+
 };
 
 const defineProjects ={
@@ -258,6 +261,24 @@ const initialNotes = {
       '15 Prevention of Retractable Clamp Detachment': 'Notes 15 Prevention of Retractable Clamp Detachment FCM',
       '16. Person injured by falling down': 'Notes 16. Person injured by falling down FCM',
     },
+    qmmc: {
+      '1. FC 100x higher on QFN 48 pin': 'Notes 1. FC 100x higher on QFN 48 pin FCM',
+      '2. FABS2 EOL Tester': 'Notes 2. FABS2 EOL Tester FCM',
+      '3. MOE3 Milling Pool - PCB edge delamination': 'Notes 3. MOE3 Milling Pool - PCB edge delamination FCM',
+      '4. IvecoMux safety incident with shelfcarriers 1': 'Notes 4. IvecoMux safety incident with shelfcarriers 1 FCM',
+      '5. D716 Damaged component': 'Notes 5. D716 Damaged component FCM',
+      '6. JLR Ford parts mix': 'Notes 6. JLR Ford parts mix FCM',
+      '7. PSS - Laser Marking Machine safety errors': 'Notes 7. PSS - Laser Marking Machine safety errors FCM',
+      '8. Deviatie de contur Milling 225': 'Notes 8. Deviatie de contur Milling 225 FCM',
+      '9. ECA_M2_Scontrol_Pseudo Failures': 'Notes 9. ECA_M2_Scontrol_Pseudo Failures FCM',
+      '10. DASy Enhanced MARVEL eFUse_8D_report': 'Notes 10. DASy Enhanced MARVEL eFUse_8D_report FCM',
+      '11. SKD16 VC1CP019 pushed-out bushings': 'Notes 11. SKD16 VC1CP019 pushed-out bushings FCM',
+      '12. Reduction of insufficient printing for bus bar components - DCDC Gen3 EVO': 'Notes 12. Reduction of insufficient printing for bus bar components - DCDC Gen3 EVO FCM',
+      '13. Internal transport damage': 'Notes 13. Internal transport damage FCM',
+      '14. Damage component –coil L414_1': 'Notes 14. Damage component –coil L414_1FCM',
+      '15 Prevention of Retractable Clamp Detachment': 'Notes 15 Prevention of Retractable Clamp Detachment FCM',
+      '16. Person injured by falling down': 'Notes 16. Person injured by falling down FCM',
+    },
   };
 
 const departmentCriteria = {
@@ -270,7 +291,8 @@ const departmentCriteria = {
   'ctg': ["D1 and D2", "Involvement of associates"],
   'hrl': ["D1 and D2", "Involvement of associates"],
   'log': ["D1 and D2", "Involvement of associates"],
-  'fcm': ["D1 and D2", "Involvement of associates"]
+  'fcm': ["D1 and D2", "Involvement of associates"],
+  'qmmc': ["D1 and D2", "Involvement of associates"],
 };
 
 function App() {
