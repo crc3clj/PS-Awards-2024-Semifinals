@@ -33,25 +33,25 @@ const projects = {
 
 const defineProjects ={
 
-    '1. MOE3 Milling Pool - PCB edge delamination': 'MOE1',
-    '2. JLR Ford parts mix': 'MOE2',
-    '3. FC 100x higher on QFN 48 pin': 'TEF',
-    '4. SKD16 VC1CP019 pushed-out bushings': 'MOE4',
-    '5. Person injured by falling down': 'MOE4',
+    '1. MOE3 Milling Pool - PCB edge delamination': 'TEF',
+    '2. JLR Ford parts mix': 'LOG',
+    '3. FC 100x higher on QFN 48 pin': 'MOE1',
+    '4. SKD16 VC1CP019 pushed-out bushings': 'MOE2',
+    '5. Person injured by falling down': 'MOE2',
     '6. Internal transport damage': 'LOG',
-    '7. Reduction of insufficient printing for bus bar components - DCDC Gen3 EVO': 'TEF',
-    '8. Prevention of Retractable Clamp Detachment': 'MOE3',
+    '7. Reduction of insufficient printing for bus bar components - DCDC Gen3 EVO': 'MOE1',
+    '8. Prevention of Retractable Clamp Detachment': 'MOE1',
 };
 
 const defineProjectLeader = {
-    '1. MOE3 Milling Pool - PCB edge delamination': 'Jeong Jaewon',
-    '2. JLR Ford parts mix': 'Eissa Ahmed',
-    '3. FC 100x higher on QFN 48 pin': 'Batan Alexandru',
-    '4. SKD16 VC1CP019 pushed-out bushings': 'Pop Daniel ',
-    '5. Person injured by falling down': 'Faur Darius',
-    '6. Internal transport damage': 'Monica Jucan',
-    '7. Reduction of insufficient printing for bus bar components - DCDC Gen3 EVO': 'Florean Mihai',
-    '8. Prevention of Retractable Clamp Detachment': 'Negreanu Daniel',
+    '1. MOE3 Milling Pool - PCB edge delamination': 'Batan Alexandru',
+    '2. JLR Ford parts mix': 'Monica Jucan',
+    '3. FC 100x higher on QFN 48 pin': 'Jaewon Jeong',
+    '4. SKD16 VC1CP019 pushed-out bushings': 'Pieper Steffen',
+    '5. Person injured by falling down': 'Boda Mihai-Adrian',
+    '6. Internal transport damage': 'Aiben Mihai',
+    '7. Reduction of insufficient printing for bus bar components - DCDC Gen3 EVO': 'Sava Paul-Melinte',
+    '8. Prevention of Retractable Clamp Detachment': 'Megyesi Lorand',
 };
 
 const initialNotes = {
