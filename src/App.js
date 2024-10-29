@@ -5,7 +5,7 @@ import { useMemo } from 'react';
 const departments = [
   // { id: 'pm' , name: 'PM - Oezmeral Hueseyin'  },
   // { id: 'pc' , name: 'PC - Constantinescu Monica'  },
-  { id: 'mse', name: 'MSE - Touhent Hassene' },
+  { id: 'mse', name: 'PC - Monica Constantinescu' },
   { id: 'tef', name: 'TEF - Radu Harceaga' },
   { id: 'qmm', name: 'QMM - Keiser Reimund' },
   { id: 'qmml', name: 'QMM-L - Sergiu Erdei' },
