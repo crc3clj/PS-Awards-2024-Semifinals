@@ -447,7 +447,7 @@ useEffect(() => {
         <div className="progress">{progress}%</div>
       </div>
     )}
-      <h1>PS Awards Digital Booklet 2024 - Quarters</h1>
+      <h1>PS Awards Digital Booklet 2024 - Semifinals</h1>
       <form className="dropdown" onSubmit={handleSubmit} >
       <div className='dropdown-container'>
       <div>
