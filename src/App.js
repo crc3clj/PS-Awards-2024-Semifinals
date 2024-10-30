@@ -128,7 +128,7 @@ const departmentCriteria = {
   'pm': ["D5 and D6", "KPI Improvement"],
   'pc': ["D5 and D6", "KPI Improvement"],
   'mse': ["D5 and D6", "KPI Improvement"],
-  'tef': ["D5 and D5", "KPI Improvement"],
+  'tef': ["D5 and D6", "KPI Improvement"],
   'qmm': ["D5 and D6", "KPI Improvement"],
   'qmml': ["D5 and D6", "KPI Improvement"],
   'ctg': ["D5 and D6", "KPI Improvement"],
